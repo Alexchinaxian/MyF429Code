@@ -1,2 +1,0 @@
----- updateDisplayBackupPowerSetData Matches (1 in 1 files) ----
-LCD_Service.c (Service) line 7948 : void updateDisplayBackupPowerSetData(KeyAction_TypeDef nowActionType,DisplayAction_TypeDef nowDisplayType,PowerType_TypeDef nowPowertype)
