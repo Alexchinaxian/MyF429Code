@@ -1,0 +1,69 @@
+#ifndef __ADC_DRIVER_H
+#define __ADC_DRIVER_H
+//#include "HeadFile.h"
+#include "MCU.h"
+
+
+#define PR_ADC_CHANNEL_0                    LL_ADC_CHANNEL_0
+#define PR_ADC_CHANNEL_1                    LL_ADC_CHANNEL_1
+#define PR_ADC_CHANNEL_2                    LL_ADC_CHANNEL_2
+#define PR_ADC_CHANNEL_3                    LL_ADC_CHANNEL_3
+#define PR_ADC_CHANNEL_4                    LL_ADC_CHANNEL_4
+#define PR_ADC_CHANNEL_5                    LL_ADC_CHANNEL_5
+#define PR_ADC_CHANNEL_6                    LL_ADC_CHANNEL_6
+#define PR_ADC_CHANNEL_7                    LL_ADC_CHANNEL_7
+#define PR_ADC_CHANNEL_8                    LL_ADC_CHANNEL_8
+#define PR_ADC_CHANNEL_9                    LL_ADC_CHANNEL_9
+#define PR_ADC_CHANNEL_10                   LL_ADC_CHANNEL_10
+#define PR_ADC_CHANNEL_11                   LL_ADC_CHANNEL_11
+#define PR_ADC_CHANNEL_12                   LL_ADC_CHANNEL_12
+#define PR_ADC_CHANNEL_13                   LL_ADC_CHANNEL_13
+#define PR_ADC_CHANNEL_14                   LL_ADC_CHANNEL_14
+#define PR_ADC_CHANNEL_15                   LL_ADC_CHANNEL_15
+#define PR_ADC_CHANNEL_16                   LL_ADC_CHANNEL_16
+#define PR_ADC_CHANNEL_17                   LL_ADC_CHANNEL_17
+#define PR_ADC_CHANNEL_18                   LL_ADC_CHANNEL_18
+#define PR_ADC_REG_RANK_1                   LL_ADC_REG_RANK_1
+#define PR_ADC_REG_RANK_2                   LL_ADC_REG_RANK_2
+#define PR_ADC_REG_RANK_3                   LL_ADC_REG_RANK_3
+#define PR_ADC_REG_RANK_4                   LL_ADC_REG_RANK_4
+#define PR_ADC_REG_RANK_5                   LL_ADC_REG_RANK_5
+#define PR_ADC_REG_RANK_6                   LL_ADC_REG_RANK_6
+#define PR_ADC_REG_RANK_7                   LL_ADC_REG_RANK_7
+#define PR_ADC_REG_RANK_8                   LL_ADC_REG_RANK_8
+
+#define PR_ADC_RESOLUTION_12B               LL_ADC_RESOLUTION_12B
+#define PR_ADC_RESOLUTION_10B               LL_ADC_RESOLUTION_10B
+#define PR_ADC_RESOLUTION_8B                LL_ADC_RESOLUTION_8B
+#define PR_ADC_RESOLUTION_6B                LL_ADC_RESOLUTION_6B
+
+#define PR_ADC_SCAN_LENGTH_1RANKS           LL_ADC_REG_SEQ_SCAN_DISABLE
+#define PR_ADC_SCAN_LENGTH_2RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_2RANKS
+#define PR_ADC_SCAN_LENGTH_3RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_3RANKS
+#define PR_ADC_SCAN_LENGTH_4RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_4RANKS
+#define PR_ADC_SCAN_LENGTH_5RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_5RANKS
+#define PR_ADC_SCAN_LENGTH_6RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_6RANKS
+#define PR_ADC_SCAN_LENGTH_7RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_7RANKS
+#define PR_ADC_SCAN_LENGTH_8RANKS           LL_ADC_REG_SEQ_SCAN_ENABLE_8RANKS
+
+#define PR_ADC_CLOCK_SYNC_PCLK_DIV1         LL_ADC_CLOCK_SYNC_PCLK_DIV1
+#define PR_ADC_CLOCK_SYNC_PCLK_DIV2         LL_ADC_CLOCK_SYNC_PCLK_DIV2
+#define PR_ADC_CLOCK_SYNC_PCLK_DIV4         LL_ADC_CLOCK_SYNC_PCLK_DIV4
+#define PR_ADC_CLOCK_ASYNC_DIV1             LL_ADC_CLOCK_ASYNC_DIV1
+#define PR_ADC_CLOCK_ASYNC_DIV2             LL_ADC_CLOCK_ASYNC_DIV2
+#define PR_ADC_CLOCK_ASYNC_DIV4             LL_ADC_CLOCK_ASYNC_DIV4
+#define PR_ADC_CLOCK_ASYNC_DIV6             LL_ADC_CLOCK_ASYNC_DIV6
+#define PR_ADC_CLOCK_ASYNC_DIV8             LL_ADC_CLOCK_ASYNC_DIV8
+#define PR_ADC_CLOCK_ASYNC_DIV10            LL_ADC_CLOCK_ASYNC_DIV10
+#define PR_ADC_CLOCK_ASYNC_DIV12            LL_ADC_CLOCK_ASYNC_DIV12
+#define PR_ADC_CLOCK_ASYNC_DIV16            LL_ADC_CLOCK_ASYNC_DIV16
+#define PR_ADC_CLOCK_ASYNC_DIV32            LL_ADC_CLOCK_ASYNC_DIV32
+#define PR_ADC_CLOCK_ASYNC_DIV64            LL_ADC_CLOCK_ASYNC_DIV64
+#define PR_ADC_CLOCK_ASYNC_DIV128           LL_ADC_CLOCK_ASYNC_DIV128
+#define PR_ADC_CLOCK_ASYNC_DIV256           LL_ADC_CLOCK_ASYNC_DIV256
+
+#define PR_ADC_SAMPLINGTIME_12CYCLES_5      LL_ADC_SAMPLINGTIME_12CYCLES_5
+
+extern void ADC_Driver_Initial(void);
+
+#endif
